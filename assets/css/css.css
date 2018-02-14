@@ -285,19 +285,23 @@ body {
       text-align: center;
       width: 100%;
     } */
+    #masthead {
+      margin: auto;
+    }
     #main-container, {
       width: 600px;
     }
     .sidebar {
       width: 100%;
-      float: left;
+      
     }
     #connect {
       width: 100%
     }
     #main-container {
-      width: 90%;
+      width: 50%;
       height: 90%;
+      margin: auto;
     }
     /* .work {
       width: 500px;
