@@ -215,14 +215,33 @@ body {
 .col-12 {width: 100%} */
 
 
-@media screen and(min-width: 640px){
-     body, 
+@media (max-width: 640px){
+    body, 
      #masthead, 
-     .container, 
      #logo {
        width: 100%;
      }
-     #main-container {
+     nav {
+       text-align: center;
+       width: 100%;
+     }
+     #main-container, {
        width: 600px;
      }
-    }
+     .sidebar {
+       width: 100%;
+       float: left;
+     }
+     #connect {
+       width: 100%
+     }
+     #main-container {
+       width: 90%;
+       height: 90%;
+     }
+     .work {
+       width: 500px;
+       height: 500px;
+     }
+     }
+    
